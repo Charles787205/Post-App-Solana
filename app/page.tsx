@@ -48,14 +48,6 @@ export default function Home() {
             </span>
           </button>
         </div>
-        <button
-          onClick={() => {
-            console.log(formData);
-          }}
-          className="p-2 bg-green-600 rounded shadow w-[150px] hover:bg-green-700 active:bg-green-600 text-white"
-        >
-          Click me for test
-        </button>
 
         {posts &&
           posts.map((post, index) => {
